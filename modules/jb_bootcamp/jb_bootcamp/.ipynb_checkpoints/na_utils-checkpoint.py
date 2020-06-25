@@ -6,6 +6,7 @@ def dna_to_rna(seq):
     """
     Convert a DNA sequence to RNA.
     """
+
     # Determine if original sequence was uppercase
     seq_upper = seq.isupper()
 
@@ -26,6 +27,7 @@ def reverse_rna_complement(seq):
     """
     Convert a DNA sequence into its reverse complement as RNA.
     """
+
     # Determine if original was uppercase
     seq_upper = seq.isupper()
 
